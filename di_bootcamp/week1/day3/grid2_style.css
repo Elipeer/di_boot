@@ -1,0 +1,44 @@
+html, body { 
+
+	height: 100%;
+    width: 100%;
+    margin: 0; 
+
+}
+
+
+.grid{
+
+display: grid;
+
+grid-gap: 1px;
+grid-template-columns:repeat(16, 50px);
+
+}
+
+
+.lg{
+background-color: #C0C0C0;
+width: 50px;
+height: 50px;
+content: none;
+color: transparent;
+}
+.grey{
+background-color: #D3D3D3;
+width: 50px;
+height: 50px;
+color: transparent;
+}
+.dg{
+background-color: #696969;
+width: 50px;
+height: 50px;
+color: transparent;
+}
+.black{
+background-color: black;
+width: 50px;
+height: 50px;
+color: transparent;
+}
