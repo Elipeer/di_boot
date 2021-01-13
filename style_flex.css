@@ -11,14 +11,6 @@ margin: 0;
     justify-content: space-between;
 }
 
-.grid1{
-
-}
-
-.grid2{
-
-
-}
 
 .box{
 
@@ -33,35 +25,9 @@ margin: 0;
 
 }
 
-.box1{
-
-border: 1px solid blue;
-	 background-color: yellow;
-	 width: 50px;
-	 height: 50px;
-	 margin: 3px;
-	 padding: 10px;
-     font-size: 50px;
-     text-align: center;
-
-}
-
 .middle{
 display: flex;
 flex-direction: row;
 align-self: center;
-
-}
-.box2{
-border: 1px solid blue;
-	 background-color: yellow;
-	 width: 50px;
-	 height: 50px;
-	 margin: 35px;
-	 padding: 10px;
-     font-size: 50px;
-     text-align: center;
-     align-content: center;
-     
 
 }
