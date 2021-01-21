@@ -41,7 +41,7 @@ let array = ["", "Bottles of beer on the wall", "", "bottles of beer Take", "1",
  	array.splice(0,1,bottles);
     array.splice(2,1,bottles);
     array.splice(4,1,i+1);
-    var newArr = array.join(" ");
+    var newArr = array.join(" ");  
     
  	}
  	console.log(newArr);
