@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mini todo list</title>
+	<link rel="stylesheet" type="text/css" href="todoStyle.css">
+</head>
+<body>
+    <label for="title">Title</label><br>
+    <input type="text" id="title" name="title"><br>
+    <label for="description">Description</label><br>
+    <textarea id="description"></textarea><br>
+    <label for="date">Choose a start date and time:</label><br>
+    <input type="datetime-local" id="datetime" onchange="startDate(event)"><br><hr>
+    <label for="date">Choose an end date and time:</label><br>
+    <input type="datetime-local" id="datetime" onchange="endDate(event)"><br><hr>
+    <button type="button" onclick="setList()">Set</button><br>
+    <div id="container"></div>
+    <script type="text/javascript" src="java.js"></script>
+</body>
+</html>

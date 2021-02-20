@@ -1,0 +1,1 @@
+select name from customer where name != 'greg jones'
