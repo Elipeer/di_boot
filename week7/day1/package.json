@@ -1,0 +1,16 @@
+{
+  "name": "my_first_pack",
+  "version": "1.0.1",
+  "description": "my first app",
+  "main": "java.js",
+  "scripts": {
+    "start": "nodemon java.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "nodemon": "^2.0.7"
+  }
+}
