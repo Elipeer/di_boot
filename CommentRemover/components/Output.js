@@ -2,7 +2,7 @@ import Readfile from './Readfile'
 import React,{useState,useEffect,useContext} from 'react'
 import {UserContext} from '../UserContext'
 
-function Output ({selectedFile}) {
+function Output () {
   const {file,setFile} = useContext(UserContext)
 
   return(
