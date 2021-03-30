@@ -1,39 +1,6 @@
 .App {
   text-align: center;
 }
-.red{
-  color: red;
-}
-.green{
-  color: green;
-
-}
-.blue{
-  color: blue;
-}
-
-.area{
-  width: 100%;
-  height: 300px;
-}
-.char{
-    display: flex;
-    width: 10px;
-    height: 20px;
-    color: white;
-    font-size: 15px;
-}
-.whoa{
-  color: yellow;
-}
-.textBox{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0;
-
-
-}
 
 .App-logo {
   height: 40vmin;
