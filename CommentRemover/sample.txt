@@ -1,0 +1,6 @@
+
+const/* text= "My Text goes here";
+
+export default tfalkdsjds;ext;
+//
+*/
