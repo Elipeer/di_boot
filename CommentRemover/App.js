@@ -39,9 +39,7 @@ function App() {
                 <Output />
               </Route>
               </UserContext.Provider>
-
             </Switch>
-
           </div>
         </Router>
       );
